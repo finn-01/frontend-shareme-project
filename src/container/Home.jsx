@@ -54,7 +54,7 @@ const Home = () => {
 					<div className="fixed w-4/5 bg-white h-screen overlow-y-auto shadow-md z-10 animate-slide-in">
 						<div className="absolute w-full flex justify-end items-center p-2">
 							<AiFillCloseCircle
-								fontSize={30}
+								fontSize={35}
 								className="cursor-pointer"
 								onClick={() => {
 									setToggleSidebar(false);
