@@ -22,6 +22,7 @@ const Navbar = ({ searchTerm, setSearchTerm, user }) => {
 					placeholder="Search"
 					value={searchTerm}
 					onFocus={() => navigate("/search")}
+					onBlur={() => navigate("/")}
 					className="p-2 w-full bg-white outline-none "
 				/>
 			</div>
