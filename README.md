@@ -1,3 +1,7 @@
+#My App:
+[Share Me](https://share-me-by-finn.netlify.app/)
+[Sanity](https://sharemejsmfinn.sanity.studio/desk/pin)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
