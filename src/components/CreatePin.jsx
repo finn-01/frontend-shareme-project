@@ -10,11 +10,11 @@ import { categories } from "../utils/data";
 const CreatePin = ({ user }) => {
 	const [title, setTitle] = useState("");
 	const [about, setAbout] = useState("");
-	const [destination, setDestination] = useState("");
+	const [destination, setDestination] = useState();
 	const [loading, setLoading] = useState(false);
-	const [fields, setFields] = useState(false);
-	const [category, setCategory] = useState(null);
-	const [imageAsset, setImageAsset] = useState(null);
+	const [fields, setFields] = useState();
+	const [category, setCategory] = useState();
+	const [imageAsset, setImageAsset] = useState();
 	const [wrongImage, setWrongImage] = useState(false);
 
 	const navigate = useNavigate();
